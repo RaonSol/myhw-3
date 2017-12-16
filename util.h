@@ -5,10 +5,11 @@
 #define BEST_FIT 1
 #define WORST_FIT 2
 
-typedef struct query_s{
+typedef struct query_s
+{
 
-  char type;
-  char val[256];
+    char type;
+    char val[256];
 
 } query;
 
